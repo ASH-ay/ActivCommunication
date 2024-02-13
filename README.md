@@ -1,37 +1,38 @@
-# MERN Stack Project: Build and Deploy a Real Time Chat App | JWT, Socket.io
+ActiveComms
+ActiveComms is a responsive chat website designed for small organizations or departments to facilitate seamless communication among users. Whether you're working on your desktop or on the go with your mobile device, ActiveComms ensures that you can stay connected with your colleagues or team members at all times.
 
-![Demo App](https://i.ibb.co/gFSMzKN/1.png)
+Features
+Login and Signup: Users can create an account or login to an existing one to access the chat platform.
 
-[Video Tutorial on Youtube](https://youtu.be/HwCqsOis894)
+Logout: Users can securely logout of their accounts when they are done using the platform.
 
-Some Features:
+End-to-End User Chats: Users can engage in private, secure conversations with anyone registered on the app.
 
--   🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
--   🎃 Authentication && Authorization with JWT
--   👾 Real-time messaging with Socket.io
--   🚀 Online user status (Socket.io and React Context)
--   👌 Global state management with Zustand
--   🐞 Error handling both on the server and on the client
--   ⭐ At the end Deployment like a pro for FREE!
--   ⏳ And much more!
+Online Status Indicator: A green mark indicates when a user is online, making it easy for others to see who is available for communication.
 
-### Setup .env file
+Notification Sound: Users receive a notification sound upon receiving a message if they have enabled this feature.
 
-```js
-PORT=...
-MONGO_DB_URI=...
-JWT_SECRET=...
-NODE_ENV=...
-```
+Usage
+To use ActiveComms, follow these simple steps:
 
-### Build the app
+Signup/Login: If you are a new user, sign up for an account. If you already have an account, simply log in.
 
-```shell
-npm run build
-```
+Start Chatting: Once logged in, you can start chatting with other users who are registered on the platform. You can initiate a conversation by selecting a user from the list of online users.
 
-### Start the app
+Stay Connected: Keep the conversation going and stay connected with your colleagues or team members.
 
-```shell
-npm start
-```
+Logout: When you're done using ActiveComms, securely log out of your account to protect your privacy.
+
+Development
+ActiveComms is built using modern web technologies to ensure a responsive and secure user experience. The following technologies are used:
+
+Frontend: HTML5, CSS3, JavaScript (React.js)
+Backend: Node.js, Express.js
+Database: MongoDB
+Authentication: JSON Web Tokens (JWT)
+Real-Time Communication: WebSocket
+To contribute to the development of ActiveComms, follow these steps:
+
+Clone the repository: git clone https://github.com/your-username/ActiveComms.git
+Install dependencies: npm install
+Start the development server: npm start
